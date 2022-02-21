@@ -1,0 +1,22 @@
+{
+    "name": "ircmaxell/tari-php",
+    "description": "A Middleware Proof-Of-Concept Library For PHP",
+    "type": "library",
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "guzzlehttp/psr7": "^1.3",
+        "phpunit/phpunit": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Ferrara",
+            "email": "ircmaxell@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Tari\\": ["lib/", "spec/"]}
+    }
+}
